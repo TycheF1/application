@@ -1,33 +1,32 @@
 name: Fake CI Echo Workflow
 
 on:
-  workflow_dispatch:  # you can run it manually
+  workflow_dispatch:  # Manual trigger only
 
 jobs:
   mock-job:
     runs-on: ubuntu-latest
     steps:
-      - name: mani
-        run: echo "ÃÂ°ÃÂÃÂÃÂ¢ Starting agent on ubuntu-latest"
+      - name: 🟢 Start Agent
+        run: echo "🚦 Starting agent on ubuntu-latest"
 
-      - name: Checkout Code
-        run: echo "ÃÂ°ÃÂÃÂÃÂ¦ Checking out code from repository"
+      - name: 🧾 Checkout Code
+        run: echo "📥 Checking out code from repository"
 
-      - name: Set Up Node.js
-        run: echo "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ Setting up Node.js environment"
+      - name: 🛠️ Set Up Node.js
+        run: echo "🔧 Setting up Node.js environment"
 
-      - name: Install Dependencies
-        run: echo "Installing dependencies (npm install)"
+      - name: 📦 Install Dependencies
+        run: echo "📦 Installing dependencies (mock: npm install)"
 
-      - name: Run Tests
-        run: echo "ÃÂ°ÃÂÃÂ§ÃÂª Running tests"
+      - name: ✅ Run Tests
+        run: echo "🧪 Running tests..."
 
-      - name: Build Application
-        run: echo "ÃÂ°ÃÂÃÂÃÂÃÂ¯ÃÂ¸ÃÂ Building application"
+      - name: 🏗️ Build Application
+        run: echo "🏗️ Building application"
 
-      - name: Deploy to Staging
-        run: echo "ÃÂ°ÃÂÃÂÃÂ Deploying to staging environment"
+      - name: 🚀 Deploy to Staging
+        run: echo "🚀 Deploying to staging environment"
 
-      - name: Done
-        run: echo "ÃÂ¢ÃÂÃÂ Workflow completed successfully"
-      
+      - name: ✅ Done
+        run: echo "✅ Workflow completed successfully"
