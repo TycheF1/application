@@ -7,27 +7,27 @@ jobs:
   mock-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Start Agent
-        run: echo "Ã°ÂÂÂ¢ Starting agent on ubuntu-latest"
+      - name: mani
+        run: echo "ÃÂ°ÃÂÃÂÃÂ¢ Starting agent on ubuntu-latest"
 
       - name: Checkout Code
-        run: echo "Ã°ÂÂÂ¦ Checking out code from repository"
+        run: echo "ÃÂ°ÃÂÃÂÃÂ¦ Checking out code from repository"
 
       - name: Set Up Node.js
-        run: echo "Ã°ÂÂÂ Ã¯Â¸Â Setting up Node.js environment"
+        run: echo "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ Setting up Node.js environment"
 
       - name: Install Dependencies
         run: echo "Installing dependencies (npm install)"
 
       - name: Run Tests
-        run: echo "Ã°ÂÂ§Âª Running tests"
+        run: echo "ÃÂ°ÃÂÃÂ§ÃÂª Running tests"
 
       - name: Build Application
-        run: echo "Ã°ÂÂÂÃ¯Â¸Â Building application"
+        run: echo "ÃÂ°ÃÂÃÂÃÂÃÂ¯ÃÂ¸ÃÂ Building application"
 
       - name: Deploy to Staging
-        run: echo "Ã°ÂÂÂ Deploying to staging environment"
+        run: echo "ÃÂ°ÃÂÃÂÃÂ Deploying to staging environment"
 
       - name: Done
-        run: echo "Ã¢ÂÂ Workflow completed successfully"
+        run: echo "ÃÂ¢ÃÂÃÂ Workflow completed successfully"
       
